@@ -16,6 +16,15 @@
 - 未授权禁止写代码
 - 每次变更可追溯、可验收、可回滚
 
+## 适用技术栈
+本模板流程是**通用的**，适用于任何语言和框架（Java, Rust, Node.js, iOS, Android, Python 等）。
+
+唯一需要针对性修改的是 `CONSTRAINTS.md` 中的 **C2. 技术约束**：
+- **Java/Android**: 规定是否用 Room/JPA，是否允许 RxJava 等。
+- **Rust**: 规定是否允许 `unsafe`，错误处理规范等。
+- **Node.js**: 规定 CommonJS vs ESM，ORM 选择等。
+- **iOS**: 规定 UIKit vs SwiftUI，数据层方案等。
+
 ## 使用方式（推荐）
 1. 新项目 → 复制整个仓库
 2. 每次新需求：
